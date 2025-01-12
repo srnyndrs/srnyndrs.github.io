@@ -5,17 +5,18 @@ const Projects = () => {
   return (
     <div class="flex w-full p-4 md:p-0 gap-x-0 md:gap-x-8 gap-y-12 justify-center">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-4">
+            <ProjectCard
+                name={"Popcorn Time"}
+                image={"popcorn_time.jpg"}
+                description={"Android application to search movies, tv series and related people."}
+                inProgress={true}
+                link={"https://github.com/srnyndrs/PopcornTime"}
+            />
             <ProjectCard 
                 name={"JobFinder"}
                 image={"job_finder.jpg"}
                 description={"Full-stack web application to simulate job searching."}
                 link={"https://github.com/srnyndrs/JobFinder"}
-            />
-            <ProjectCard
-                name={"Popcorn Time"}
-                image={"popcorn_time.jpg"}
-                description={"Android application to search movies, tv series and actors."}
-                inProgress={true}
             />
             <ProjectCard
                 name={"iWeather"}
@@ -40,6 +41,12 @@ const Projects = () => {
                 image={"portal_peeker.jpg"}
                 description={"Android application to search characters from the Rick and Morty TV Series."}
                 link={"https://github.com/srnyndrs/Portal-Peeker"}
+            />
+            <ProjectCard
+                name={"Hydration App"}
+                image={"hydration.jpg"}
+                description={"Android applicaton to track the daily liquid consume."}
+                link={"https://github.com/srnyndrs/Hydration-App"}
             />
             <ProjectCard
                 name={"Online Library"}
