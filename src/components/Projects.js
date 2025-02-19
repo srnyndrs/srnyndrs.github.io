@@ -25,39 +25,22 @@ const Projects = () => {
                 link={"https://github.com/srnyndrs/iWeather"}
             />
             <ProjectCard
-                name={"SearchHub"}
-                image={"search_hub.jpg"}
-                description={"Android application to search github repositories."}
-                link={"https://github.com/srnyndrs/SearchHub"}
-            />
-            <ProjectCard
-                name={"Image Finder"}
-                image={"image_finder.jpg"}
-                description={"Android application to search pictures in Flickr."}
-                link={"https://github.com/srnyndrs/ImageFinder"}
-            />
-            <ProjectCard
-                name={"Portal Peeker"}
-                image={"portal_peeker.jpg"}
-                description={"Android application to search characters from the Rick and Morty TV Series."}
-                link={"https://github.com/srnyndrs/Portal-Peeker"}
-            />
-            <ProjectCard
-                name={"Hydration App"}
-                image={"hydration.jpg"}
-                description={"Android applicaton to track the daily liquid consume."}
-                link={"https://github.com/srnyndrs/Hydration-App"}
-            />
-            <ProjectCard
                 name={"Online Library"}
                 image={"konyvesch.jpg"}
                 description={"Server-side webpage to implement book lending from an imaginary library."}
                 link={"https://github.com/srnyndrs/OnlineLibrary"}
             />
             <ProjectCard
-                name={"Smart Tools"}
-                image={"smart_tools.jpg"}
-                description={"Android application as a thesis project, that performs various measurement tasks using the available sensors in the devices."}
+                name={"SearchHub"}
+                image={"search_hub.jpg"}
+                description={"Android application to search github repositories."}
+                link={"https://github.com/srnyndrs/SearchHub"}
+            />
+            <ProjectCard
+                name={"Hydration App"}
+                image={"hydration.jpg"}
+                description={"Android applicaton to track the daily liquid consume."}
+                link={"https://github.com/srnyndrs/Hydration-App"}
             />
         </div>
     </div>

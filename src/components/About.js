@@ -39,9 +39,6 @@ const About = () => {
                 and have since advanced my skills to include <HighlightedText text="JavaScript"/>, <HighlightedText text="Node.js"/> and <HighlightedText text="React.js"/>.
                 I recently started to learn new skills by completing a full-stack project using <HighlightedText text="Spring Boot"/>, <HighlightedText text="PostgreSQL"/>, <HighlightedText text="Docker"/>, <HighlightedText text="TypeScript"/> and <HighlightedText text="Next.js"/>.
               </p>
-              <p className="text-justify">
-                I am eager to secure a position, where I can further develop my professional skills through real-world projects and teamwork.
-              </p>
             </div>
           </div>
         </div>
