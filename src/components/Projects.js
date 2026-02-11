@@ -6,11 +6,16 @@ const Projects = () => {
     <div class="flex w-full p-4 md:p-0 gap-x-0 md:gap-x-8 gap-y-12 justify-center">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-4">
             <ProjectCard
-                name={"Popcorn Time"}
-                image={"popcorn_time.jpg"}
-                description={"Android application to search movies, tv series and related people."}
-                inProgress={true}
-                link={"https://github.com/srnyndrs/PopcornTime"}
+                name={"Lemon"}
+                image={"lemon.jpg"}
+                description={"Android application to track your spending."}
+                link={"https://github.com/srnyndrs/Lemon"}
+            />
+            <ProjectCard
+                name={"Next Stop"}
+                image={"next_stop.jpg"}
+                description={"Android application to providing real-time public transport info for Budapest."}
+                link={"https://github.com/srnyndrs/next-stop"}
             />
             <ProjectCard 
                 name={"JobFinder"}
@@ -35,12 +40,6 @@ const Projects = () => {
                 image={"search_hub.jpg"}
                 description={"Android application to search github repositories."}
                 link={"https://github.com/srnyndrs/SearchHub"}
-            />
-            <ProjectCard
-                name={"Hydration App"}
-                image={"hydration.jpg"}
-                description={"Android applicaton to track the daily liquid consume."}
-                link={"https://github.com/srnyndrs/Hydration-App"}
             />
         </div>
     </div>

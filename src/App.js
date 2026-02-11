@@ -4,25 +4,25 @@ import Header from './components/Header';
 import MenuItems from './components/MenuItems';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import Education from './components/Education';
+import Experience from './components/Experience';
 import About from './components/About';
 import Footer from './components/Footer';
 import Divider from './components/Divider';
 
 function App() {
   return (
-    <div className="drawer">
+    <div className="drawer overflow-x-hidden">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         <Header />
-        <main id="home" className="w-full mt-12">
+        <main id="home" className="w-full mt-12 overflow-x-hidden">
           <Home />
           <Divider id="about" name="About"/>
           <About />
           <Divider id="skills" name="Skills"/>
           <Skills />
-          <Divider id="education" name="Education"/>
-          <Education />
+          <Divider id="experience" name="Experience"/>
+          <Experience />
           <Divider id="projects" name="Projects"/>
           <Projects />
         </main>
